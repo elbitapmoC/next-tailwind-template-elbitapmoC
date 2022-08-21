@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Counter = ({ title, descrption }) => {
+const Counter = ({ title, description }) => {
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
@@ -10,7 +10,7 @@ const Counter = ({ title, descrption }) => {
   return (
     <>
       <h1 className="title text-4xl">{title}</h1>
-      <aside>{descrption}</aside>
+      <aside>{description}</aside>
       <p className="mt-4 mb-4 text-2xl italic">{count}</p>
       <button
         type="button"
