@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Counter = ({ title, description }) => {
+const InCommon = ({ title, description }) => {
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
@@ -23,4 +23,4 @@ const Counter = ({ title, description }) => {
   );
 };
 
-export default Counter;
+export default InCommon;

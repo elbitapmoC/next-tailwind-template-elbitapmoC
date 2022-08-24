@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import Footer from "../components/Footer";
-import Counter from "../components/Counter";
+import InCommon from "../components/InCommon";
 
 export default function Home() {
   const [count, setCount] = useState(1);
@@ -25,9 +25,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="main">
-        <Counter
-          title="Count Chocula"
-          description="Reactive Data (Padding to Child)"
+        <InCommon
+          title="Do We Have Anything In Common?"
+          description="Checks both arrays, returns true if they have an element has a shared value."
         />
       </div>
       <Footer />
